@@ -21,7 +21,7 @@ public class Hashmap {
 		Collection<String> ss = map.values();
 		System.out.println(ss);             //THIS WILL PRINT VALUES OF ELEMENTS ONLY
 		
-		Set<Entry<Integer, String>>sss = map.entrySet();
+		Set<Entry<Integer, String>> sss = map.entrySet();
 		for(Entry<Integer, String> s3 :sss) {
 			System.out.println(s3);         //THIS WILL PRINT ALL KEY AND VALUES
 		}

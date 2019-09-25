@@ -7,7 +7,6 @@ public class Employee {
 		super();
 		this.eid = eid;
 		this.name = name;
-		
 	}
 	@Override
 	public String toString() {
