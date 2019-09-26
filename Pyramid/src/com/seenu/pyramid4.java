@@ -8,7 +8,7 @@ public class pyramid4 {
 		for(int i=1;i<=5;i++) {
 			int k=0;
 			for(int j=1;j<=NoOfSpaces;j++) {
-				System.out.print(" ");
+				System.out.print("  ");
 			}
 			for(int j=1;j<=odd;j++) {
 				if(j<=i) {
@@ -16,7 +16,7 @@ public class pyramid4 {
 				}else {
 					k=k-1;
 				}
-				System.out.print(k);
+				System.out.print(k+" ");
 			}
 			System.out.println();
 			odd=odd+2;
