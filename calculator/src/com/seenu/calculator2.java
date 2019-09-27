@@ -13,19 +13,16 @@ public class calculator2 {
 		char ch = sc.next().charAt(0);
 		double z;
 		switch(ch) {
-		
 		case '+': z=x+y;
 		break;
-		
 		case '-': z=x-y;
 		break;
-		
 		case '/': z=x/y;
 		break;
-		
 		case '*': z=x*y;
 		break;
-		
+		case '%': z=x%y;
+		break;
 		default:
 			System.out.println("ERROR...PLEASE ENTER VALID KEYWORDS");
 			return;
