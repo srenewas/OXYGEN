@@ -3,8 +3,6 @@ package com.seenu;
 import java.util.Scanner;
 
 public class calculator {
-	int x;
-	int y;
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		System.out.println("ENTER X VALUE.........");
