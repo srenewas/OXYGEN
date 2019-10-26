@@ -1,6 +1,6 @@
 package com.seenu;
 
-class test {
+public class Letters_count {
 	public static void main(String[] args) {
 		String s = "seenu iglesias";
 		int count = 0;
