@@ -1,8 +1,7 @@
 package com.seenu;
 
-class test{
+public class Array_Min_Max {
 	public static void main(String[] args) {
-	
 		int [] a = {5,8,1,9,20};
 		int max = 0;
 		int min = a[0];
@@ -15,5 +14,5 @@ class test{
 		}
 		System.out.println(max);
 		System.out.println(min);
-   }
+	}
 }
