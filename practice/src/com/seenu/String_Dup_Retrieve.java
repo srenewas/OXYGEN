@@ -1,6 +1,6 @@
 package com.seenu;
 
-class test{
+public class String_Dup_Retrieve {
 	public static void main(String[]args) {
 		String s = "seenuu";
 		char[] ch =s.toCharArray();
@@ -11,7 +11,6 @@ class test{
 					System.out.println(ch[j]);
 					count++;
 					break;
-					
 				}
 			}
 		}

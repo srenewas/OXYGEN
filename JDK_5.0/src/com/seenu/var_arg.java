@@ -14,7 +14,7 @@ public class var_arg {
 	}
 	}
 
-// The varrags allows the method to accept zero or muliple arguments. 
+// The varargs allows the method to accept zero or muliple arguments. 
 
 // Advantage of Varargs : We don't have to provide overloaded methods so less code.
 

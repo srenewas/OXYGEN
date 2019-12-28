@@ -1,9 +1,20 @@
 package com.seenu;
 import static java.lang.System.*;
 
+import java.util.Scanner;
+
 public class static_import {
+	int a;
+	int b;
+	int m;
 	public static void main(String[] args) {
 		out.println("SEENU IGLESIAS");
+		Scanner sc = new Scanner(in); // HERE WE ARE NOT USING (System.in) instead of this we use (in) only  
+		System.out.println("enter");
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int m = a+b;
+		System.out.println(m);
 	}
 
 }
