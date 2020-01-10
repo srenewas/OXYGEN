@@ -26,5 +26,4 @@ public class Hashmap {
 			System.out.println(s3);         //THIS WILL PRINT ALL KEY AND VALUES
 		}
 	}
-
 }
