@@ -18,10 +18,6 @@ class Student implements Serializable{
 		Company = company;
 	}
 	
-	public void display() {
-		System.out.println("****STUDENT DETAILS****");
-		System.out.println();
-	}
 }
 public class Serialize {
 	public static void main(String[] args) throws IOException, ClassNotFoundException {
