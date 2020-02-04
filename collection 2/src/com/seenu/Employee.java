@@ -14,7 +14,7 @@ public class Employee {
 public static void main(String[] args) {
 	ArrayList<Employee> employee = new ArrayList<>();
 	employee.add(new Employee(120,"suvvy"));
-	employee .add(new Employee(102, "seenu"));
+	employee.add(new Employee(102, "seenu"));
 	Collections.sort(employee,new comparator2());
 	for(Employee emp:employee) {
 		System.out.println(emp.id+" "+emp.name);

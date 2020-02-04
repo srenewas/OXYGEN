@@ -2,7 +2,7 @@ package com.seenu;
 
 public class String_Dup_Retrieve {
 	public static void main(String[]args) {
-		String s = "seenuu";
+		String s = "seenuuas";
 		char[] ch =s.toCharArray();
 		int count = 0;
 		for(int i=0;i<s.length();i++) {

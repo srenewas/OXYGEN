@@ -6,11 +6,12 @@ public class Array_Min_Max {
 		int max = 0;
 		int min = a[0];
 		for(int i=0;i<a.length;i++) {
-			if(a[i]>max) {
+			if(a[i]>max) 
 				max = a[i];
-			}else if(a[i]<min) {
-				min = a[i];
-			}
+//			else if(a[i]<min) 
+//				min = a[i];
+			else
+				min=a[i];
 		}
 		System.out.println(max);
 		System.out.println(min);

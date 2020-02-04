@@ -43,6 +43,7 @@ class Employee implements Externalizable{
 public class Externilize {
 	public static void main(String[] args) {
 		Employee emp = new Employee("seenu", 123, "google");
+		Employee emp2 = new Employee("suhas", 186, "cognizant");
 		Employee newemployee = null;
 		try {
 			FileOutputStream fos = new FileOutputStream("xyzz.txt");

@@ -12,5 +12,4 @@ public class Letters_Check {
 		}
 		System.out.println(count);
 	}
-
 }

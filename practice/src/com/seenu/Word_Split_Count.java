@@ -17,7 +17,5 @@ public class Word_Split_Count {
 			}
 		}
 		System.out.println(map);     // Output :- {I=1, i=1, Iron=1, Man=1, am=3}
- 
 	}
-
 }
