@@ -13,7 +13,7 @@ public class test2 {
 		HashMap<Integer, String> map = new HashMap<>();
 		map.put(167, "seenuy");
 		map.put(123, "revbantgh");
-		map.put(17, "zzzz");
+		map.put(17, "zzz");
 		
 		Comparator<Entry<Integer, String>> sorting = new Comparator<Map.Entry<Integer,String>>() {
 			@Override
