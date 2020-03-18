@@ -10,11 +10,11 @@ public class static_import {
 	public static void main(String[] args) {
 		out.println("SEENU IGLESIAS");
 		Scanner sc = new Scanner(in); // HERE WE ARE NOT USING (System.in) instead of this we use (in) only  
-		System.out.println("enter");
+		out.println("enter");
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		int m = a+b;
-		System.out.println(m);
+		out.println(m);
 	}
 
 }

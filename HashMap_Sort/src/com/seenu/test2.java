@@ -23,7 +23,7 @@ public class test2 {
 		};
 		List<Entry<Integer,String>> list = new ArrayList<Map.Entry<Integer,String>>(map.entrySet());
 		
-		 Collections.sort(list,sorting);
+		 Collections.sort(list,sorting);          // ONLY LIST CLASS CONTAIN SORTING SO, THATS WHY WE ARE COPY THE ELEMENTS INTO LIST
 		 for(Entry<Integer, String> values:list) {
 			 System.out.println(values);
 		 }

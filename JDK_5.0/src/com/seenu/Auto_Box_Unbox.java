@@ -9,5 +9,4 @@ public class Auto_Box_Unbox {
 		Integer j = 100;
 		System.out.println(j);  // AutoBoxing i:e primitive to obj
 	}
-
 }

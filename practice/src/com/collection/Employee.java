@@ -10,6 +10,7 @@ class Employee implements Comparable<Employee>{
 	}
 @Override
 public int compareTo(Employee e1) {
+	//return name.compareTo(e1.name);
 	Employee em = (Employee)e1;
 	if(id==em.id)
 		return 0;
