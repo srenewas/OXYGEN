@@ -5,7 +5,7 @@ public class String_To_Int_Convert {
 	public static int convert(String str) {
 		int val=0;
 		try {
-		val=Integer.parseInt(str);
+		val=Integer.parseInt(str);      // 
 		}catch(Exception e){
 			System.out.println("invalid");
 		}
