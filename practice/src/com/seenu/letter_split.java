@@ -7,5 +7,9 @@ public class letter_split {
 		for(int i=0;i<ch.length;i++) {
 			System.out.println(ch[i]);
 		}
+//		String[] ss =s.split("");
+//		for(String sss:ss) {                  // By Using Predefined Method
+//			System.out.println(sss);
+//		}
 	}
 }

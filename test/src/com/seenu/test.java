@@ -1,11 +1,12 @@
 package com.seenu;
 
-public class Demo {
+public class test {
 	public static void main(String[] args) {
-		String  s = "seenu";
+		String s="seenu iglesias";
 		char[] ch = s.toCharArray();
-		for(int i=ch.length-1;i>=0;i--) {
+		for(int i=ch.length;i>=0;i--) {
 			System.out.println(ch[i]);
 		}
 	}
+
 }
