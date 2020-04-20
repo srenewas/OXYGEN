@@ -9,7 +9,9 @@ public class test {
 		al.add(new Employee("ravi", 101));
 		al.add(new Employee("akhila", 102));
 		
-		Collections.sort(al);
+//		Collections.sort(al);                             // it prints ascending order list    (default)
+		Collections.sort(al,Collections.reverseOrder());  // it prints descending order list
+		
 		for(Employee emp:al) {
 			System.out.println("EMPLOYEE ID   :"+emp.id);
 			System.out.println("EMPLOYEE NAME :"+emp.name);
