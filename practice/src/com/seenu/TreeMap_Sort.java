@@ -1,33 +1,30 @@
 package com.seenu;
 
-import java.util.Comparator;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeMap;
+import java.util.*;
 
 public class TreeMap_Sort {
 	public static void main(String[] args) {
-		TreeMap tm = new TreeMap(new MyComp());
-		tm.put(102, "seenu");
-		tm.put(110, "buggy");
-		tm.put(103, "minion");
+		TreeMap<String,String> tm = new TreeMap<>();
+		tm.put("B","Banana");
+		tm.put("C","Cherry");
+		tm.put("A","Apple");
 		System.out.println(tm);
+
 	}
 }
-//class MyComp implements Comparator<Integer>{
-//	@Override
-//	public int compare(Integer i1, Integer i2) {
-//		return -i1.compareTo(i2);
-//	}
-//	
-//}
+class MyComp implements Comparator <String>{
+	@Override
+	public int compare(String i1, String i2) {
+		return i1.compareTo(i2);
+	}
 
-class MyComp implements Comparator<String>{
+}
+
+/*class MyComp implements Comparator<String>{
 
 	@Override
 	public int compare(String s1, String s2) {
 		return s1.compareTo(s2);
 	}
 	
-}
+}*/

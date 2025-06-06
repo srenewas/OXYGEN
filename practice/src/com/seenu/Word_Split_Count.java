@@ -5,10 +5,10 @@ import java.util.Map;
 
 public class Word_Split_Count {
 	public static void main(String[] args) {
-		String s = "I i am am am Iron Man Man";
+		String s = "I I i am am am Iron Man Man";
 		String [] str  = s.split(" ");
 		Map<String, Integer> map = new HashMap<String, Integer>();
-		for(int i=0;i<str.length-1;i++) {
+		for(int i=0;i<str.length;i++) {
 			if(map.containsKey(str[i])) {
 				int count = map.get(str[i]);
 				map.put(str[i], count+1);

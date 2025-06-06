@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Collection_to_Array {
 	public static void main(String[] args) {
-		ArrayList<String> al = new ArrayList<String>();
+		ArrayList<String> al = new ArrayList<>();
 		al.add("seenu");
 		al.add("akhil");
 		al.add("mini");

@@ -13,5 +13,6 @@ public class Singleton_Eag_load {
 	public static void main(String[] args) {
 		Xyz obj = Xyz.getInstance();
 		Xyz obj2 = Xyz.getInstance();
+		System.out.println(obj==obj2);
 	}
 }

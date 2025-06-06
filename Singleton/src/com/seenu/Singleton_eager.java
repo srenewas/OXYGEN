@@ -15,5 +15,7 @@ public class Singleton_eager {
 		Singleton_eager reference2 = Singleton_eager.getinstance();
 		System.out.println("hashcode value is :"+reference2);
 
+		System.out.println(reference==reference2);
+
 	}
 }

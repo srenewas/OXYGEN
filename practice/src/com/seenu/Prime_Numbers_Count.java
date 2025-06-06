@@ -6,7 +6,7 @@ public class Prime_Numbers_Count {
 	public static void main(String[]args) {
 		int temp,num;
 		boolean isprime = true;
-		System.out.println("Enter the PrimrValue...");
+		System.out.println("Enter the Prime Value...");
 		Scanner sc = new Scanner(System.in);
 		num = sc.nextInt();
 		sc.close();

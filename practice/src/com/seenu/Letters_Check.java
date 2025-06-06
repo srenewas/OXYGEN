@@ -12,5 +12,12 @@ public class Letters_Check {
 		}
 		System.out.println(count);
 	}
-
 }
+
+
+/*
+✅ What It Does:
+Loops through each character in the string s.
+Checks if the character matches 'N'.
+Increments a counter if it does.
+Prints the final count.*/

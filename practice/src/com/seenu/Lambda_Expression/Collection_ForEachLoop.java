@@ -9,5 +9,6 @@ public class Collection_ForEachLoop {
 		list.add("vasu");
 		list.add("suvvy");
 		list.forEach((n)-> System.out.println(n)); // You Can Pass Param as Any Letter
+		list.stream().forEach(System.out::println); // using streams
 	}
 }

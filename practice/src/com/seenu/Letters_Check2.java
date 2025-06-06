@@ -7,7 +7,7 @@ public class Letters_Check2 {
 		int count = 0;
 		for(char c :ch) {
 			switch(c) {
-			case 'i':
+			case 'e':
 				count++;
 				break;
 			}
