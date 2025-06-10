@@ -1,6 +1,7 @@
 package com.map;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class test {
     public static void main(String[] args) {
@@ -11,14 +12,22 @@ public class test {
 
         System.out.println("*********Values*********");
         map.entrySet().stream().map(s->s.getValue()).forEach(System.out::println);
+
         System.out.println("*********Keys*********");
         map.entrySet().stream().map(s->s.getKey()).forEach(System.out::println);
+
         System.out.println("*********Fetching_Names_from_Map_Values*********");
         map.values().stream().map(s->s.getName()).forEach(System.out::println);
+
         System.out.println("*********Salary_Based_On_Filter*********");
         map.values().stream().filter(s->s.getSalary() > 80000).map(s->s.getSalary()).forEach(System.out::println);
+        map.entrySet().stream().map(e->e.getValue()).filter(e->e.getSalary()>70000).forEach(System.out::println);
+
         System.out.println("*********Filter_Based_On_Name*********");
-        map.values().stream().filter(s-> s.getName().startsWith("s")).forEach(System.out::println);
+        map.values().stream().map(s->s.getName().toUpperCase()).forEach(System.out::println);
+        map.values().stream().map(s->{s.setName(s.getName().toUpperCase());
+            return s;
+        }).forEach(System.out::println);
 
         /*Set<String> set = map.keySet();
         //System.out.println(set);                // Only sop

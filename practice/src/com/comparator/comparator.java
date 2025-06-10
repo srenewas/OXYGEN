@@ -13,6 +13,9 @@ public class comparator {
         list.add(new Employee(55000.0,"dani"));
         list.add(new Employee(45000.0,"rexi"));
 
+        list.stream().sorted(Comparator.comparing(s->s.Salary)).forEach(System.out::println);
+        list.stream().sorted(Comparator.comparing((Employee emp)->emp.name).reversed()).forEach(System.out::println);
+
         Collections.sort(list,new nameComparator());
         //Collections.sort(list,new salaryComparator());
         for(Employee emp : list){

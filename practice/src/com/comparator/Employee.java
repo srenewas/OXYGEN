@@ -6,8 +6,8 @@ public class Employee {
     String name;
     double Salary;
 
-    public Employee(Double salary, String name) {
-        Salary = salary;
+    Employee(Double salary, String name) {
+        this.Salary = salary;
         this.name = name;
     }
 
